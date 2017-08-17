@@ -1,6 +1,30 @@
 {% extends "layout.html" %}
 {% block content %}
        
+    <div  id="outer" class="container-fluid">
+      
+      	<!-- World Choropleth Chart -->
+      	<div class="row">
+        	<div class="col-sm-9">
+          		<div class="chart-wrapper">
+            		<div class="chart-title">World Map</div>
+          				<div class="chart-stage">
+            				<div id="World-chart"></div>
+          				</div>
+          		</div>
+        	</div>
+        </div>
+
+        <!-- Hpi Score Pie Chart -->
+      	<div class="col-sm-3">
+            <div class="chart-wrapper">
+              	<div class="chart-title">Happy Planet Index Score</div>
+              		<div class="chart-stage">
+                		<div id="index-chart"></div>
+              		</div>
+            </div>
+    	</div>
+    </div>
 
 {% endblock %}
 
