@@ -1,0 +1,14 @@
+	#navbar {
+		height: 8%;
+}
+
+	.navbar-logo {
+		position: fixed;
+		background-image: url('/static/img/logo8.png');
+		background-position: left;
+		width: 100%;
+		height: 46px;
+		background-repeat: no-repeat;
+		margin-top: 0.3%;
+}
+
