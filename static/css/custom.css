@@ -1,10 +1,11 @@
+/* Navigation Bar */
 	#navbar {
 		height: 8%;
 }
 
 	.navbar-logo {
 		position: fixed;
-		background-image: url('/static/img/logo8.png');
+		background-image: url('/static/media/logo8.png');
 		background-position: left;
 		width: 100%;
 		height: 46px;
@@ -12,7 +13,7 @@
 		margin-top: 0.3%;
 }
 
-
+/* Layout */
 	.backgroundImage {
 		position: fixed;
 		width: 100%;
@@ -22,10 +23,58 @@
   		background-position: center;
 }
 
+/* Index Page */
  	#banner {
-		  position: relative;
-		  display: flex;
-  		  width: 100%;	
-  		  margin-top: 10%;  
+		position: relative;
+		display: flex;
+  		width: 100%;	
+  		margin-top: 10%;  
 }
+
+/* Graphs Page */
+	.container-fluid {
+		padding-top: 60px;
+		display: inline block;
+}
+
+	.chart-wrapper {
+		background-color: transparent;
+		border: 0px;
+		margin-bottom: -50px;
+}
+
+	.chart-wrapper .chart-title {
+		text-align: center;
+		color: #fff;
+		border-bottom: 0px;
+		font-size: 20px;
+}
+
+	.chart-wrapper .chart-stage {
+		text-align: center;		
+}
+
+	.dc-chart .pie-slice {
+    	fill: black;
+    	font-size: 15px;
+    	cursor: crosshair;
+}
+
+	#index-chart {
+		margin-bottom: 60px;
+}
+
+	#number-projects-nd {
+		background: #007ba5;		
+        position: relative;
+        width: 100%;
+        font-size: 30px;
+        color: white;
+        vertical-align: center;
+        padding-top: 15px;
+        padding-bottom: 0px;">
+        border: 1px solid transparent;
+        border-radius: 20px; 
+}
+
 

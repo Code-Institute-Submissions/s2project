@@ -26,7 +26,6 @@ This websites data has been stored in ###MongoDb###. It then uses ###Flask### fo
 ### Features Left to Implement
     - Informative about page 
     - Mobile responsive features
-    - 2 more graphs
     - Scaling for choropleth chart(javascript)
     - Complete Styling
  
