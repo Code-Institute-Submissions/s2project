@@ -31,6 +31,19 @@
   		margin-top: 10%;  
 }
 
+/* About Page */
+	iframe {
+		width:100%;
+		height:300px;
+		margin-top: 14%;
+		margin-left: 10%;
+}
+
+	#inner-container {
+		margin-top: 5%;
+		color: white;
+}
+
 /* Graphs Page */
 	.container-fluid {
 		padding-top: 60px;

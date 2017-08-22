@@ -12,19 +12,20 @@ It helps users interested in quickly accesing information about countries around
  
 ### How does it work
  
-This websites data has been stored in ###MongoDb###. It then uses ###Flask### for all the routing of the site.The graphs where created using ###D3###, ###Crossfilter### and ###DC### and the Choropleth chart used Geo.json. The styling of the website is done with ###Bootstrap### and my own ###CSS###.
+This websites data has been stored in ##MongoDb##. It then uses ##Flask## for all the routing of the site.The graphs where created using ##D3##, ##Crossfilter## and ##DC## and the Choropleth chart used Geo.json. The styling of the website is done with ##Bootstrap## and my own ##CSS##.
  
 ## Features
  
 ### Implemented Features
-	- Layout for all pages
+    - Layout for all pages
     - Simple and effective welcome page (index page)
+    - informative about page
     - Graphs Page
-    	-choropleth graph (geo.json)
-    	-pie chart
+        -choropleth graph (geo.json)
+        -pie chart X2
+        -number display
 
-### Features Left to Implement
-    - Informative about page 
+### Features Left to Implement 
     - Mobile responsive features
     - Scaling for choropleth chart(javascript)
     - Complete Styling
@@ -59,6 +60,3 @@ This websites data has been stored in ###MongoDb###. It then uses ###Flask### fo
   - The dataset comes from The Happy Planet Index
   - w3schools has been a good refrence site to refresh different codes and methods.
   - My tutor has been a great help and inspiration for this project.
-
-  
-  
