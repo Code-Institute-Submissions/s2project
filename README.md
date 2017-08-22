@@ -25,10 +25,10 @@ This websites data has been stored in ##MongoDb##. It then uses ##Flask## for al
         -pie chart X2
         -number display
         - Scaling for choropleth chart(javascript)
+    - Mobile responsive features
 
 ### Features Left to Implement 
-    - Mobile responsive features
-    - Complete Styling
+
  
 ## Tech Used
 

@@ -90,4 +90,21 @@
         border-radius: 20px; 
 }
 
+ /* Mobile Responsive */
+ 	@media (max-width: 800px) {
+    	#banner {
+        	width: 100%;
+        	margin-top: 80px;
+}
+	
+	@media (max-width: 800px) {
+    	.chart-wrapper {
+        	margin-bottom:0;
+}	
+
+	@media (max-width: 800px) {
+    	iframe {
+        	margin-left:0px;
+        	height: 100%;
+}
 
