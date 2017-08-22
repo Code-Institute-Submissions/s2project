@@ -24,10 +24,10 @@ This websites data has been stored in ##MongoDb##. It then uses ##Flask## for al
         -choropleth graph (geo.json)
         -pie chart X2
         -number display
+        - Scaling for choropleth chart(javascript)
 
 ### Features Left to Implement 
     - Mobile responsive features
-    - Scaling for choropleth chart(javascript)
     - Complete Styling
  
 ## Tech Used
