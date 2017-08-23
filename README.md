@@ -2,9 +2,9 @@
 
 ## Overview
 
-### What is this app for?
+### What is this Website for?
  
-This website was made for my stream two prjoect.The site demonstrates the use of csv/json datasets and other tech to display graphs. 
+This website is for users interested in viewing the happiest countrie.This site was made for my stream two prjoect.The site demonstrates the use of csv/json datasets and other tech to display graphs. 
  
 ### What does it do?
  
@@ -12,7 +12,7 @@ It helps users interested in quickly accesing information about countries around
  
 ### How does it work
  
-This websites data has been stored in [MongoDb]. It then uses [Flask] to retrieve the data from the database and return it to the browser aswell as all the routing in the site. The graphs where created using [D3], [Crossfilter] and [DC] and the Choropleth chart used Geo.json. The styling of the website is done with [Bootstrap] and my own [CSS].The Site uses [Github] version controll to keep track of any changes and the final working version has been diployed to [Heroku]
+This websites data has been stored in **MongoDb**. It then uses **Flask** to retrieve the data from the database and return it to the browser aswell as all the routing in the site. The graphs where created using **D3**, **Crossfilter** and **DC** and the Choropleth chart used Geo.json. The styling of the website is done with **Bootstrap** and my own **CSS**.The Site uses **Github** version controll to keep track of any changes and the final working version has been diployed to **Heroku**
 
 ### Changes
 
