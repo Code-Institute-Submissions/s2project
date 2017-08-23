@@ -1,11 +1,11 @@
 {% extends "layout.html" %}
 {% block content %}
        
-    <div  id="outer" class="container-fluid">
+    <div  id="outer">
       
       	<!-- World Choropleth Chart -->
       	<div class="row">
-        	<div class="col-sm-9">
+        	<div class="col-sm-12 col-lg-9">
           		<div class="chart-wrapper">
             		<div class="chart-title">World Map</div>
           				<div class="chart-stage">
@@ -15,7 +15,7 @@
         	</div>     
 
         <!-- Hpi Score Pie Chart -->
-      	<div class="col-sm-3">
+      	<div class="col-sm-12 col-md-6 col-lg-3">
             <div class="chart-wrapper">
               	<div class="chart-title">Happy Planet Index Score</div>
               		<div class="chart-stage">
@@ -25,7 +25,7 @@
     	</div>
     
     	<!-- Life Expectancy Chart -->
-      	<div class="col-sm-3">
+      	<div class="col-sm-12 col-md-6 col-lg-3">
       		<div class="chart-wrapper">
               	<div class="chart-title">Life Expectancy</div>
               		<div class="chart-stage">
@@ -36,7 +36,7 @@
       </div>
 
       	<!-- Population Number Display -->
-      	<div class="col-sm-9">         
+      	<div class="col-sm-12 col-md-12 col-lg-9">         
         	<div class="chart-wrapper">
           		<div class="chart-title">Total Population</div>
           			<div class="chart-stage"> 
@@ -47,4 +47,3 @@
   	</div>
 
 {% endblock %}
-

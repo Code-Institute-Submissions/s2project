@@ -54,7 +54,7 @@ function makeGraphs(error, hpiProject) {
     worldChart
         .dimension(ccDim)
         .width(mapWidth)
-        .height(450)
+        .height(mapHeight)
         .group(worldMap)
         .colors(d3.scale.quantize().range(["#17202A", "#424949", "#4D5656", "#626567", "#7B7D7D", "#B3B6B7", "#D0D3D4"]))
         .colorDomain([0, 90])
@@ -69,8 +69,8 @@ function makeGraphs(error, hpiProject) {
 
     indexStatusChart
        .height(200)
-       .radius(90)
-       .innerRadius(40)
+       .radius(80)
+       .innerRadius(30)
        .transitionDuration(1500)
        .dimension(indexStatus)
        .group(numProjectsByIndexStatus);
@@ -82,8 +82,8 @@ function makeGraphs(error, hpiProject) {
        
     lifeExpectancyChart
        .height(200)
-       .radius(90)
-       .innerRadius(40)
+       .radius(80)
+       .innerRadius(30)
        .transitionDuration(1500)
        .dimension(lifeExpectancy)
        .group(lifeExpectancyYears);

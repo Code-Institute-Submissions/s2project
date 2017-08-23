@@ -1,9 +1,12 @@
 {% extends "layout.html" %}
 {% block content %}
   
-	<figure id="banner">
-      <img src="/static/media/header4.png" alt="Happy Planet Welcome Banner">
+	<figure id="banner" class="hidden-xs">
+      <img src="/static/media/header4.png" alt="Happy Planet Welcome Banner" width="100%" height="30%">
+    </figure>
+
+	<figure id="bannerSmall" class=" hidden-sm hidden-md hidden-lg">
+      <img src="/static/media/headerSmall6.png" alt="Small Happy Planet Welcome Banner" width="100%" height="30%">
     </figure>
 
 {% endblock %}
-

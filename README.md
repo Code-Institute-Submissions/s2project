@@ -28,7 +28,7 @@ This websites data has been stored in ##MongoDb##. It then uses ##Flask## for al
     - Mobile responsive features
 
 ### Features Left to Implement 
-
+    - N/A
  
 ## Tech Used
 
@@ -55,8 +55,12 @@ This websites data has been stored in ##MongoDb##. It then uses ##Flask## for al
 - [Bootstrap](http://getbootstrap.com/)
     - I Used bootstrap for easy and responsive layout throughout the site
 
+## Testing
+- All testing has been done through chrome and firefox aswell as mobile responsive features tested by       resizing the browser windows in both chrome and firefox
  
 ## Contributing
-  - The dataset comes from The Happy Planet Index
-  - w3schools has been a good refrence site to refresh different codes and methods.
-  - My tutor has been a great help and inspiration for this project.
+- The dataset comes from The Happy Planet Index.
+
+- w3schools has been a good refrence site to refresh different codes and methods.
+
+- My tutor has been a great help and inspiration for this project.

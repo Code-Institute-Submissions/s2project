@@ -7,7 +7,7 @@
 		position: fixed;
 		background-image: url('/static/media/logo8.png');
 		background-position: left;
-		width: 100%;
+		width: 200px;
 		height: 46px;
 		background-repeat: no-repeat;
 		margin-top: 0.3%;
@@ -28,7 +28,11 @@
 		position: relative;
 		display: flex;
   		width: 100%;	
-  		margin-top: 10%;  
+  		margin-top: 80px;  
+}
+
+ 	#bannerSmall {
+		position: relative;	
 }
 
 /* About Page */
@@ -40,20 +44,19 @@
 }
 
 	#inner-container {
-		margin-top: 5%;
+		margin-top: 60px;
 		color: white;
 }
 
 /* Graphs Page */
-	.container-fluid {
+	.row {
 		padding-top: 60px;
-		display: inline block;
 }
 
 	.chart-wrapper {
 		background-color: transparent;
 		border: 0px;
-		margin-bottom: -50px;
+		margin-bottom: -50px;		
 }
 
 	.chart-wrapper .chart-title {
@@ -75,6 +78,11 @@
 
 	#index-chart {
 		margin-bottom: 60px;
+		width: 255px;
+}
+
+	#life-expectancy-chart {
+		width: 255px;
 }
 
 	#number-projects-nd {
@@ -85,26 +93,45 @@
         color: white;
         vertical-align: center;
         padding-top: 15px;
-        padding-bottom: 0px;">
+        padding-bottom: 0px;
         border: 1px solid transparent;
         border-radius: 20px; 
 }
 
  /* Mobile Responsive */
- 	@media (max-width: 800px) {
-    	#banner {
-        	width: 100%;
-        	margin-top: 80px;
+	@media (max-width: 406px) {
+		#bannerSmall {
+			margin-top: 20px;
+		}
 }
-	
+
 	@media (max-width: 800px) {
     	.chart-wrapper {
         	margin-bottom:0;
-}	
+		}
 
-	@media (max-width: 800px) {
     	iframe {
-        	margin-left:0px;
-        	height: 100%;
+    		margin: 0px 0px 20px 0px;     	
+		}
 }
+		
+	@media (max-width: 1200px) {
+		#World-chart {
+			padding-bottom: 40px;
+		}
+
+		#index-chart {
+			width: 100%;
+			margin-bottom: 30px;
+		}
+		
+		#life-expectancy-chart {
+			width: 100%;
+			margin-bottom: 30px;
+		}
+}
+
+
+
+
 
