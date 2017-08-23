@@ -12,30 +12,31 @@ It helps users interested in quickly accesing information about countries around
  
 ### How does it work
  
-This websites data has been stored in ##MongoDb##. It then uses ##Flask## for all the routing of the site.The graphs where created using ##D3##, ##Crossfilter## and ##DC## and the Choropleth chart used Geo.json. The styling of the website is done with ##Bootstrap## and my own ##CSS##.
+This websites data has been stored in [MongoDb]. It then uses [Flask] to retrieve the data from the database and return it to the browser aswell as all the routing in the site. The graphs where created using [D3], [Crossfilter] and [DC] and the Choropleth chart used Geo.json. The styling of the website is done with [Bootstrap] and my own [CSS].The Site uses [Github] version controll to keep track of any changes and the final working version has been diployed to [Heroku]
+
+### Changes
+
+I have made changes to my graphs page to suit the look and feel of the website, There was originally meant to be a bar chart but this didnt look good at all and therefore it was changed to a pie chart to keep the site looking great. I also added an additional pie chart to give it that extra edge.The site has also had media changes to keep the site looking good on all devices. 
  
 ## Features
  
 ### Implemented Features
-    - Layout for all pages
+    - Layout for all pages (flask)
     - Simple and effective welcome page (index page)
     - informative about page
     - Graphs Page
         -choropleth graph (geo.json)
-        -pie chart X2
+        -pie chart X2 
         -number display
         - Scaling for choropleth chart(javascript)
     - Mobile responsive features
-
-### Features Left to Implement 
-    - N/A
  
 ## Tech Used
 
 ### Some of the tech used includes:
 
 - [Flask](http://flask.pocoo.org)
-    - I used Flask for the routing of the site
+    - I used Flask to retrieve the data from the database and return it to the browser
 
 - [MongoDB](https://www.mongodb.com)
     - I used MongoDb to store my .csv data
@@ -47,7 +48,7 @@ This websites data has been stored in ##MongoDb##. It then uses ##Flask## for al
     - I Used D3 for visualizing the data
 
 - [DC](https://dc-js.github.io/dc.js/)
-    - I used D3 to create the graphs
+    - I used DC to create the graphs
 
 - [PyMongo](https://api.mongodb.com/python/current/)
     - I used pymango to allow python to work with MongoDb 
@@ -56,7 +57,7 @@ This websites data has been stored in ##MongoDb##. It then uses ##Flask## for al
     - I Used bootstrap for easy and responsive layout throughout the site
 
 ## Testing
-- All testing has been done through chrome and firefox aswell as mobile responsive features tested by       resizing the browser windows in both chrome and firefox
+- All testing has been done throughout the duration of the project using chrome and firefox.The mobile responsive features tested by resizing the browser windows in both chrome and firefox
  
 ## Contributing
 - The dataset comes from The Happy Planet Index.
