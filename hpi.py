@@ -9,6 +9,7 @@ app = Flask(__name__)
 
 MONGO_URI = os.getenv('MONGODB_URI', 'mongodb://localhost:27017')
 DBS_NAME = os.getenv('MONGO_DB_NAME', 'project2')
+COLLECTION_NAME = 'hpi'
 
 
 @app.route("/")
@@ -42,7 +43,7 @@ def project4_hpi():
 
     # Open a connection to MongoDB using a with statement such that the
     # connection will be closed as soon as we exit the with statement
-    with MongoClient(MONGODB_HOST, MONGODB_PORT) as conn:
+    with MongoClient(MONGO_URI) as conn:
         # Define which collection we wish to access
         collection = conn[DBS_NAME][COLLECTION_NAME]
         # Retrieve a result set only with the fields defined in FIELDS
