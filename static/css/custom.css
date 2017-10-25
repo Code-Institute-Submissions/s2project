@@ -16,7 +16,6 @@
 /* Layout */
 	html {
 		background-image: url('/static/media/background12.jpg');
-    	position: fixed;
  		width: 100%;
  		min-height: 100%;
  		background-repeat: no-repeat;
@@ -27,7 +26,6 @@
 	body{
 		background-color: transparent;
 		min-height: 100%;
-		overflow-y:scroll;
 }
 
 /* Index Page */
