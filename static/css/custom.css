@@ -14,13 +14,14 @@
 }
 
 /* Layout */
-	.backgroundImage {
-		position: fixed;
-		width: 100%;
-		background-repeat: no-repeat;
-		height: auto;
-  		background-size: contain;
-  		background-position: center;
+	html {
+		background-image: url('/static/media/background12.jpg');
+    	position: fixed;
+ 		width: 100%;
+ 		background-repeat: no-repeat;
+ 		height: auto;
+   		background-size: cover;
+   		background-position: center;
 }
 
 /* Index Page */
