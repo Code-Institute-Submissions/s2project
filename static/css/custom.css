@@ -24,6 +24,10 @@
    		background-position: center;
 }
 
+	body{
+		background-color: transparent;
+}
+
 /* Index Page */
  	#banner {
 		position: relative;
